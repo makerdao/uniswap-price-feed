@@ -1,0 +1,6 @@
+[submodule "lib/pyexchange"]
+	path = lib/pyexchange
+	url = https://github.com/makerdao/pyexchange.git
+[submodule "lib/pymaker"]
+	path = lib/pymaker
+	url = https://github.com/makerdao/pymaker.git

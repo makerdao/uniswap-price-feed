@@ -1,0 +1,11 @@
+.idea
+*.iml
+
+_virtualenv
+
+__pycache__
+.cache
+.coverage
+.pytest_cache/
+
+.DS_Store

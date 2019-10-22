@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+dir="$(dirname "$0")"/..
+source $dir/_virtualenv/bin/activate || exit
+export PYTHONPATH=$PYTHONPATH:$dir:$dir/lib/pyexchange:$dir/lib/pymaker
+exec python3 -m uniswap_price_feed.main $@
