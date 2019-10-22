@@ -69,7 +69,7 @@ optional arguments:
 
 ## Sample scripts
 
-- ETH-DAI price feed (connect to `ws://user:readonly@localhost:7777/price/ETH-DAI/socket`)
+- ETH-DAI price feed (e.g. pass `--price-feed` command line argument to keeper bot as `ws://user:readonly@localhost:7777/price/ETH-DAI/socket`)
 ```
 bin/uniswap-price-feed \
     --quote-exchange-address 0x09cabEC1eAd1c0Ba254B09efb3EE13841712bE14 \
@@ -78,7 +78,7 @@ bin/uniswap-price-feed \
     --ro-account user:readonly
 ```
 
-- MKR-DAI price feed (connect to `ws://user:readonly@localhost:7778/price/MKR-DAI/socket`):
+- MKR-DAI price feed (e.g. pass `--price-feed` command line argument to keeper bot as `ws://user:readonly@localhost:7778/price/MKR-DAI/socket`):
 ```
 bin/uniswap-price-feed \
     --base-exchange-address 0x2C4Bd064b998838076fa341A83d007FC2FA50957 \
