@@ -67,7 +67,8 @@ optional arguments:
                         username:password)
 ```
 
-Sample of running scripts
+## Sample scripts
+
 - ETH-DAI price feed (connect to `ws://user:readonly@localhost:7777/price/ETH-DAI/socket`)
 ```
 bin/uniswap-price-feed \
