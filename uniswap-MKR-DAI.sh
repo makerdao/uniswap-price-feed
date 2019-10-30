@@ -10,5 +10,4 @@ bin/uniswap-price-feed \
     --ro-account user:readonly \
     --rw-account user:readwrite \
     --http-port 7778 \
-    --report-time 2 \
-    $@ 2> >(tee -a /home/george/grandizzy/uniswap-price-feed/uniswap.log >&2)
+    --report-time 2
