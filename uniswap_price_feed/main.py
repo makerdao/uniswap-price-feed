@@ -109,6 +109,8 @@ class UniswapPriceFeed:
                      config=self.config))
         ])
         application.listen(port=self.arguments.http_port,address=self.arguments.http_address)
+        logging.info(f"Price feed for {self.arguments.base_token_symbol}-{self.arguments.quote_token_symbol} started "
+                     f"on port {self.arguments.http_port}, waiting for websocket clients")
         tornado.ioloop.IOLoop.current().start()
 
 
